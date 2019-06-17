@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C7424F322B829BE0031AEE6 /* AlarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7424F222B829BE0031AEE6 /* AlarmListTableViewController.swift */; };
+		0C7424F522B82B200031AEE6 /* AlarmDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7424F422B82B200031AEE6 /* AlarmDetailTableViewController.swift */; };
+		0C7424FA22B82C0C0031AEE6 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7424F922B82C0C0031AEE6 /* SwitchTableViewCell.swift */; };
 		F7C2038C2131AD3400C3FC77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2038B2131AD3400C3FC77 /* AppDelegate.swift */; };
 		F7C203912131AD3400C3FC77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C2038F2131AD3400C3FC77 /* Main.storyboard */; };
 		F7C203932131AD3400C3FC77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C203922131AD3400C3FC77 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7424F222B829BE0031AEE6 /* AlarmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewController.swift; sourceTree = "<group>"; };
+		0C7424F422B82B200031AEE6 /* AlarmDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailTableViewController.swift; sourceTree = "<group>"; };
+		0C7424F922B82C0C0031AEE6 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		F7C203882131AD3400C3FC77 /* myAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C2038B2131AD3400C3FC77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7C203902131AD3400C3FC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,8 +58,18 @@
 		0C7424F122B825EA0031AEE6 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0C7424F222B829BE0031AEE6 /* AlarmListTableViewController.swift */,
+				0C7424F422B82B200031AEE6 /* AlarmDetailTableViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0C7424F822B82BAE0031AEE6 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				0C7424F922B82C0C0031AEE6 /* SwitchTableViewCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		F7C2037F2131AD3400C3FC77 = {
@@ -87,6 +103,7 @@
 		F7C203A72131B1D500C3FC77 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0C7424F822B82BAE0031AEE6 /* CustomCell */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,7 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7424F522B82B200031AEE6 /* AlarmDetailTableViewController.swift in Sources */,
+				0C7424FA22B82C0C0031AEE6 /* SwitchTableViewCell.swift in Sources */,
 				F7C2038C2131AD3400C3FC77 /* AppDelegate.swift in Sources */,
+				0C7424F322B829BE0031AEE6 /* AlarmListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +359,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.myAlarm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.austinwest.myAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,7 +377,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.myAlarm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.austinwest.myAlarm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
